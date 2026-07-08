@@ -230,14 +230,14 @@ function launchHeartConfetti(sourceElement) {
     heart.style.setProperty("--size", `${14 + Math.random() * 18}px`);
     heart.style.setProperty("--rotate", `${-35 + Math.random() * 70}deg`);
     heart.style.setProperty("--spin", `${160 + Math.random() * 260}deg`);
-    heart.style.setProperty("--delay", `${Math.random() * 120}ms`);
-    heart.style.setProperty("--duration", `${900 + Math.random() * 650}ms`);
+    heart.style.setProperty("--delay", `${Math.random() * 220}ms`);
+    heart.style.setProperty("--duration", `${2200 + Math.random() * 1000}ms`);
     heart.style.setProperty("--heart-color", colors[index % colors.length]);
     layer.append(heart);
   }
 
   document.body.append(layer);
-  window.setTimeout(() => layer.remove(), prefersReducedMotion.matches ? 1300 : 1900);
+  window.setTimeout(() => layer.remove(), prefersReducedMotion.matches ? 1800 : 3600);
 }
 
 function bindSecret() {
