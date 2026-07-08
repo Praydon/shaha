@@ -202,20 +202,22 @@ p {
 
 .cover-title {
   display: grid;
-  gap: 0.02em;
+  gap: 0.12em;
   max-width: min(100%, 10ch);
   font-family: var(--font-hand);
   font-size: clamp(2.15rem, 10.4vw, 5.2rem);
   font-weight: 500;
-  line-height: 1.05;
+  line-height: 1.16;
   justify-items: center;
 }
 
 .cover-title span {
   display: inline-block;
   overflow: visible;
+  padding: 0.52em 0.46em 0.48em;
+  margin: -0.52em -0.46em -0.48em;
   white-space: nowrap;
-  clip-path: inset(-0.18em 100% -0.24em -0.18em);
+  clip-path: inset(-0.58em 100% -0.54em -0.46em);
   animation: handWrite 1550ms cubic-bezier(0.24, 0.72, 0.22, 1) forwards;
 }
 
@@ -366,20 +368,37 @@ p {
 }
 
 .squid-triangle {
+  --tri-stroke: clamp(8px, 2vw, 15px);
   top: 54%;
   left: -12%;
   width: clamp(92px, 27vw, 226px);
   height: clamp(80px, 23.4vw, 196px);
+  background: linear-gradient(var(--squid-pink), var(--squid-pink)) bottom center / 100%
+    var(--tri-stroke) no-repeat;
+  clip-path: none;
+}
+
+.squid-triangle::before,
+.squid-triangle::after {
+  position: absolute;
+  bottom: 0;
+  width: var(--tri-stroke);
+  height: 100%;
+  border-radius: 999px;
   background: var(--squid-pink);
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  content: "";
+}
+
+.squid-triangle::before {
+  left: 0;
+  transform: rotate(30deg);
+  transform-origin: bottom center;
 }
 
 .squid-triangle::after {
-  position: absolute;
-  inset: clamp(14px, 3vw, 24px);
-  background: #101315;
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  content: "";
+  right: 0;
+  transform: rotate(-30deg);
+  transform-origin: bottom center;
 }
 
 .scene-discord.shapes-in .squid-circle {
@@ -660,7 +679,7 @@ p {
 .secret-answer {
   display: grid;
   gap: 14px;
-  margin-top: 14px;
+  margin-top: clamp(42px, 10vw, 86px);
 }
 
 .secret-answer[hidden],
@@ -1003,17 +1022,17 @@ body.motion-ready .easter-panel.reveal-answer {
 
 @keyframes handWrite {
   0% {
-    clip-path: inset(-0.18em 100% -0.24em -0.18em);
+    clip-path: inset(-0.58em 100% -0.54em -0.46em);
     filter: blur(0.4px);
   }
 
   82% {
-    clip-path: inset(-0.18em -0.18em -0.24em -0.18em);
+    clip-path: inset(-0.58em -0.46em -0.54em -0.46em);
     filter: blur(0);
   }
 
   100% {
-    clip-path: inset(-0.18em -0.18em -0.24em -0.18em);
+    clip-path: inset(-0.58em -0.46em -0.54em -0.46em);
     filter: blur(0);
   }
 }
