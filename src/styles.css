@@ -332,6 +332,10 @@ p {
   line-height: 1.05;
 }
 
+.question-line.squid-copy {
+  margin-top: clamp(46px, 10vw, 92px);
+}
+
 .squid-symbols {
   position: absolute;
   inset: 0;
@@ -629,6 +633,28 @@ p {
 .secret-button {
   width: fit-content;
   margin-top: 16px;
+}
+
+.heart-confetti {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.heart-confetti span {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  color: var(--heart-color);
+  font-size: var(--size);
+  line-height: 1;
+  opacity: 0;
+  text-shadow: 0 8px 18px rgba(128, 39, 68, 0.18);
+  transform: translate(-50%, -50%) scale(0.45) rotate(var(--rotate));
+  animation: heartBurst var(--duration) cubic-bezier(0.18, 0.72, 0.23, 1) forwards;
+  animation-delay: var(--delay);
 }
 
 .secret-answer {
@@ -951,6 +977,27 @@ body.motion-ready .easter-panel.reveal-answer {
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes heartBurst {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.35) rotate(var(--rotate));
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  78% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(1)
+      rotate(calc(var(--rotate) + var(--spin)));
   }
 }
 

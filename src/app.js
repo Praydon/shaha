@@ -202,6 +202,44 @@ function bindStart() {
   });
 }
 
+function launchHeartConfetti(sourceElement) {
+  const rect = sourceElement.getBoundingClientRect();
+  const originX = rect.left + rect.width / 2;
+  const originY = rect.top + rect.height / 2;
+  const layer = document.createElement("div");
+  const colors = ["#e23c77", "#ff5d8f", "#d93a5f", "#b83f72", "#ff7aa8"];
+  const hearts = ["♥", "❤", "♡"];
+  const count = prefersReducedMotion.matches ? 18 : 42;
+
+  layer.className = "heart-confetti";
+  layer.setAttribute("aria-hidden", "true");
+
+  for (let index = 0; index < count; index += 1) {
+    const heart = document.createElement("span");
+    const angle = -Math.PI + (Math.PI * index) / Math.max(count - 1, 1);
+    const spread = 90 + Math.random() * 180;
+    const drift = (Math.random() - 0.5) * 120;
+    const tx = Math.cos(angle) * spread + drift;
+    const ty = Math.sin(angle) * spread - 180 - Math.random() * 90;
+
+    heart.textContent = hearts[index % hearts.length];
+    heart.style.setProperty("--x", `${originX}px`);
+    heart.style.setProperty("--y", `${originY}px`);
+    heart.style.setProperty("--tx", `${tx}px`);
+    heart.style.setProperty("--ty", `${ty}px`);
+    heart.style.setProperty("--size", `${14 + Math.random() * 18}px`);
+    heart.style.setProperty("--rotate", `${-35 + Math.random() * 70}deg`);
+    heart.style.setProperty("--spin", `${160 + Math.random() * 260}deg`);
+    heart.style.setProperty("--delay", `${Math.random() * 120}ms`);
+    heart.style.setProperty("--duration", `${900 + Math.random() * 650}ms`);
+    heart.style.setProperty("--heart-color", colors[index % colors.length]);
+    layer.append(heart);
+  }
+
+  document.body.append(layer);
+  window.setTimeout(() => layer.remove(), prefersReducedMotion.matches ? 1300 : 1900);
+}
+
 function bindSecret() {
   const button = document.querySelector("[data-secret]");
   const answer = document.querySelector("[data-answer]");
@@ -211,6 +249,7 @@ function bindSecret() {
 
     answer.hidden = false;
     answer.classList.add("reveal-answer");
+    launchHeartConfetti(button);
     button.hidden = true;
 
     window.setTimeout(() => {
