@@ -1,0 +1,606 @@
+{
+  "source": "photos",
+  "output": "photos-optimized",
+  "widths": [
+    480,
+    768,
+    1080,
+    1440
+  ],
+  "formats": [
+    "avif",
+    "webp"
+  ],
+  "images": [
+    {
+      "source": "photos/childhood/little-princess.webp",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/childhood/little-princess/little-princess-480w.avif",
+        "photos-optimized/childhood/little-princess/little-princess-480w.webp",
+        "photos-optimized/childhood/little-princess/little-princess-768w.avif",
+        "photos-optimized/childhood/little-princess/little-princess-768w.webp",
+        "photos-optimized/childhood/little-princess/little-princess-1080w.avif",
+        "photos-optimized/childhood/little-princess/little-princess-1080w.webp",
+        "photos-optimized/childhood/little-princess/little-princess-1440w.avif",
+        "photos-optimized/childhood/little-princess/little-princess-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/little-shaha.webp",
+      "width": 1472,
+      "height": 828,
+      "outputs": [
+        "photos-optimized/childhood/little-shaha/little-shaha-480w.avif",
+        "photos-optimized/childhood/little-shaha/little-shaha-480w.webp",
+        "photos-optimized/childhood/little-shaha/little-shaha-768w.avif",
+        "photos-optimized/childhood/little-shaha/little-shaha-768w.webp",
+        "photos-optimized/childhood/little-shaha/little-shaha-1080w.avif",
+        "photos-optimized/childhood/little-shaha/little-shaha-1080w.webp",
+        "photos-optimized/childhood/little-shaha/little-shaha-1440w.avif",
+        "photos-optimized/childhood/little-shaha/little-shaha-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/little-video-call.webp",
+      "width": 900,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/childhood/little-video-call/little-video-call-480w.avif",
+        "photos-optimized/childhood/little-video-call/little-video-call-480w.webp",
+        "photos-optimized/childhood/little-video-call/little-video-call-768w.avif",
+        "photos-optimized/childhood/little-video-call/little-video-call-768w.webp",
+        "photos-optimized/childhood/little-video-call/little-video-call-1080w.avif",
+        "photos-optimized/childhood/little-video-call/little-video-call-1080w.webp",
+        "photos-optimized/childhood/little-video-call/little-video-call-1440w.avif",
+        "photos-optimized/childhood/little-video-call/little-video-call-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/other/autumn-cat-blanket.png",
+      "width": 834,
+      "height": 941,
+      "outputs": [
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-480w.avif",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-480w.webp",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-768w.avif",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-768w.webp",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-1080w.avif",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-1080w.webp",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-1440w.avif",
+        "photos-optimized/other/autumn-cat-blanket/autumn-cat-blanket-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/other/autumn-cat-window.png",
+      "width": 834,
+      "height": 941,
+      "outputs": [
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-480w.avif",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-480w.webp",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-768w.avif",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-768w.webp",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-1080w.avif",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-1080w.webp",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-1440w.avif",
+        "photos-optimized/other/autumn-cat-window/autumn-cat-window-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/other/autumn-cats.png",
+      "width": 1672,
+      "height": 941,
+      "outputs": [
+        "photos-optimized/other/autumn-cats/autumn-cats-480w.avif",
+        "photos-optimized/other/autumn-cats/autumn-cats-480w.webp",
+        "photos-optimized/other/autumn-cats/autumn-cats-768w.avif",
+        "photos-optimized/other/autumn-cats/autumn-cats-768w.webp",
+        "photos-optimized/other/autumn-cats/autumn-cats-1080w.avif",
+        "photos-optimized/other/autumn-cats/autumn-cats-1080w.webp",
+        "photos-optimized/other/autumn-cats/autumn-cats-1440w.avif",
+        "photos-optimized/other/autumn-cats/autumn-cats-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/other/discord-calls.png",
+      "width": 1179,
+      "height": 2556,
+      "outputs": [
+        "photos-optimized/other/discord-calls/discord-calls-480w.avif",
+        "photos-optimized/other/discord-calls/discord-calls-480w.webp",
+        "photos-optimized/other/discord-calls/discord-calls-768w.avif",
+        "photos-optimized/other/discord-calls/discord-calls-768w.webp",
+        "photos-optimized/other/discord-calls/discord-calls-1080w.avif",
+        "photos-optimized/other/discord-calls/discord-calls-1080w.webp",
+        "photos-optimized/other/discord-calls/discord-calls-1440w.avif",
+        "photos-optimized/other/discord-calls/discord-calls-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/other/santa-memory.JPG",
+      "width": 1139,
+      "height": 1179,
+      "outputs": [
+        "photos-optimized/other/santa-memory/santa-memory-480w.avif",
+        "photos-optimized/other/santa-memory/santa-memory-480w.webp",
+        "photos-optimized/other/santa-memory/santa-memory-768w.avif",
+        "photos-optimized/other/santa-memory/santa-memory-768w.webp",
+        "photos-optimized/other/santa-memory/santa-memory-1080w.avif",
+        "photos-optimized/other/santa-memory/santa-memory-1080w.webp",
+        "photos-optimized/other/santa-memory/santa-memory-1440w.avif",
+        "photos-optimized/other/santa-memory/santa-memory-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C.JPG",
+      "width": 1600,
+      "height": 900,
+      "outputs": [
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-480w.avif",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-480w.webp",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-768w.avif",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-768w.webp",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-1080w.avif",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-1080w.webp",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-1440w.avif",
+        "photos-optimized/shaha/086A3D15-E4D0-41A9-8D85-7713696DFD0C/086A3D15-E4D0-41A9-8D85-7713696DFD0C-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/62368EF2-3360-401B-9282-0FD12D33D921.JPG",
+      "width": 1600,
+      "height": 899,
+      "outputs": [
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-480w.avif",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-480w.webp",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-768w.avif",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-768w.webp",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-1080w.avif",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-1080w.webp",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-1440w.avif",
+        "photos-optimized/shaha/62368EF2-3360-401B-9282-0FD12D33D921/62368EF2-3360-401B-9282-0FD12D33D921-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/7227E024-1540-463B-B821-037666EB534B.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-480w.avif",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-480w.webp",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-768w.avif",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-768w.webp",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-1080w.avif",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-1080w.webp",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-1440w.avif",
+        "photos-optimized/shaha/7227E024-1540-463B-B821-037666EB534B/7227E024-1540-463B-B821-037666EB534B-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190.JPG",
+      "width": 3024,
+      "height": 4032,
+      "outputs": [
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-480w.avif",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-480w.webp",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-768w.avif",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-768w.webp",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-1080w.avif",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-1080w.webp",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-1440w.avif",
+        "photos-optimized/shaha/798A90AF-F291-447E-913E-FC6BA8FF3190/798A90AF-F291-447E-913E-FC6BA8FF3190-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-480w.avif",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-480w.webp",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-768w.avif",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-768w.webp",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-1080w.avif",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-1080w.webp",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-1440w.avif",
+        "photos-optimized/shaha/8AA993D0-6670-483C-85ED-48C4E4BE3835/8AA993D0-6670-483C-85ED-48C4E4BE3835-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/B4699527-AFB2-414E-9AF3-022503E074F6.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-480w.avif",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-480w.webp",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-768w.avif",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-768w.webp",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-1080w.avif",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-1080w.webp",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-1440w.avif",
+        "photos-optimized/shaha/B4699527-AFB2-414E-9AF3-022503E074F6/B4699527-AFB2-414E-9AF3-022503E074F6-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/cafe-smile.JPG",
+      "width": 852,
+      "height": 1280,
+      "outputs": [
+        "photos-optimized/shaha/cafe-smile/cafe-smile-480w.avif",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-480w.webp",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-768w.avif",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-768w.webp",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-1080w.avif",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-1080w.webp",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-1440w.avif",
+        "photos-optimized/shaha/cafe-smile/cafe-smile-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC.JPG",
+      "width": 1066,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-480w.avif",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-480w.webp",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-768w.avif",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-768w.webp",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-1080w.avif",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-1080w.webp",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-1440w.avif",
+        "photos-optimized/shaha/CCC891CD-6BDC-479E-9F2A-00682239D1FC/CCC891CD-6BDC-479E-9F2A-00682239D1FC-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A.JPG",
+      "width": 900,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-480w.avif",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-480w.webp",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-768w.avif",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-768w.webp",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-1080w.avif",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-1080w.webp",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-1440w.avif",
+        "photos-optimized/shaha/D3936633-CBDC-4471-8CFF-6CA52491958A/D3936633-CBDC-4471-8CFF-6CA52491958A-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/dream-day.webp",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/dream-day/dream-day-480w.avif",
+        "photos-optimized/shaha/dream-day/dream-day-480w.webp",
+        "photos-optimized/shaha/dream-day/dream-day-768w.avif",
+        "photos-optimized/shaha/dream-day/dream-day-768w.webp",
+        "photos-optimized/shaha/dream-day/dream-day-1080w.avif",
+        "photos-optimized/shaha/dream-day/dream-day-1080w.webp",
+        "photos-optimized/shaha/dream-day/dream-day-1440w.avif",
+        "photos-optimized/shaha/dream-day/dream-day-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/elegant.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/elegant/elegant-480w.avif",
+        "photos-optimized/shaha/elegant/elegant-480w.webp",
+        "photos-optimized/shaha/elegant/elegant-768w.avif",
+        "photos-optimized/shaha/elegant/elegant-768w.webp",
+        "photos-optimized/shaha/elegant/elegant-1080w.avif",
+        "photos-optimized/shaha/elegant/elegant-1080w.webp",
+        "photos-optimized/shaha/elegant/elegant-1440w.avif",
+        "photos-optimized/shaha/elegant/elegant-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/flowers-evening.JPG",
+      "width": 1066,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/flowers-evening/flowers-evening-480w.avif",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-480w.webp",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-768w.avif",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-768w.webp",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-1080w.avif",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-1080w.webp",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-1440w.avif",
+        "photos-optimized/shaha/flowers-evening/flowers-evening-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/flowers-princess.webp",
+      "width": 1600,
+      "height": 1066,
+      "outputs": [
+        "photos-optimized/shaha/flowers-princess/flowers-princess-480w.avif",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-480w.webp",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-768w.avif",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-768w.webp",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-1080w.avif",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-1080w.webp",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-1440w.avif",
+        "photos-optimized/shaha/flowers-princess/flowers-princess-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/golden-light.webp",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/golden-light/golden-light-480w.avif",
+        "photos-optimized/shaha/golden-light/golden-light-480w.webp",
+        "photos-optimized/shaha/golden-light/golden-light-768w.avif",
+        "photos-optimized/shaha/golden-light/golden-light-768w.webp",
+        "photos-optimized/shaha/golden-light/golden-light-1080w.avif",
+        "photos-optimized/shaha/golden-light/golden-light-1080w.webp",
+        "photos-optimized/shaha/golden-light/golden-light-1440w.avif",
+        "photos-optimized/shaha/golden-light/golden-light-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/IMG_3228.JPG",
+      "width": 1242,
+      "height": 2208,
+      "outputs": [
+        "photos-optimized/shaha/IMG_3228/IMG_3228-480w.avif",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-480w.webp",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-768w.avif",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-768w.webp",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-1080w.avif",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-1080w.webp",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-1440w.avif",
+        "photos-optimized/shaha/IMG_3228/IMG_3228-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/museum-day.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/museum-day/museum-day-480w.avif",
+        "photos-optimized/shaha/museum-day/museum-day-480w.webp",
+        "photos-optimized/shaha/museum-day/museum-day-768w.avif",
+        "photos-optimized/shaha/museum-day/museum-day-768w.webp",
+        "photos-optimized/shaha/museum-day/museum-day-1080w.avif",
+        "photos-optimized/shaha/museum-day/museum-day-1080w.webp",
+        "photos-optimized/shaha/museum-day/museum-day-1440w.avif",
+        "photos-optimized/shaha/museum-day/museum-day-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/night-girl.JPG",
+      "width": 900,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/night-girl/night-girl-480w.avif",
+        "photos-optimized/shaha/night-girl/night-girl-480w.webp",
+        "photos-optimized/shaha/night-girl/night-girl-768w.avif",
+        "photos-optimized/shaha/night-girl/night-girl-768w.webp",
+        "photos-optimized/shaha/night-girl/night-girl-1080w.avif",
+        "photos-optimized/shaha/night-girl/night-girl-1080w.webp",
+        "photos-optimized/shaha/night-girl/night-girl-1440w.avif",
+        "photos-optimized/shaha/night-girl/night-girl-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/paris.JPG",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/paris/paris-480w.avif",
+        "photos-optimized/shaha/paris/paris-480w.webp",
+        "photos-optimized/shaha/paris/paris-768w.avif",
+        "photos-optimized/shaha/paris/paris-768w.webp",
+        "photos-optimized/shaha/paris/paris-1080w.avif",
+        "photos-optimized/shaha/paris/paris-1080w.webp",
+        "photos-optimized/shaha/paris/paris-1440w.avif",
+        "photos-optimized/shaha/paris/paris-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/sunny-girl.webp",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/shaha/sunny-girl/sunny-girl-480w.avif",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-480w.webp",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-768w.avif",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-768w.webp",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-1080w.avif",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-1080w.webp",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-1440w.avif",
+        "photos-optimized/shaha/sunny-girl/sunny-girl-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/shaha/winter-smile.webp",
+      "width": 1600,
+      "height": 900,
+      "outputs": [
+        "photos-optimized/shaha/winter-smile/winter-smile-480w.avif",
+        "photos-optimized/shaha/winter-smile/winter-smile-480w.webp",
+        "photos-optimized/shaha/winter-smile/winter-smile-768w.avif",
+        "photos-optimized/shaha/winter-smile/winter-smile-768w.webp",
+        "photos-optimized/shaha/winter-smile/winter-smile-1080w.avif",
+        "photos-optimized/shaha/winter-smile/winter-smile-1080w.webp",
+        "photos-optimized/shaha/winter-smile/winter-smile-1440w.avif",
+        "photos-optimized/shaha/winter-smile/winter-smile-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/cinema-date.JPG",
+      "width": 1280,
+      "height": 960,
+      "outputs": [
+        "photos-optimized/together/cinema-date/cinema-date-480w.avif",
+        "photos-optimized/together/cinema-date/cinema-date-480w.webp",
+        "photos-optimized/together/cinema-date/cinema-date-768w.avif",
+        "photos-optimized/together/cinema-date/cinema-date-768w.webp",
+        "photos-optimized/together/cinema-date/cinema-date-1080w.avif",
+        "photos-optimized/together/cinema-date/cinema-date-1080w.webp",
+        "photos-optimized/together/cinema-date/cinema-date-1440w.avif",
+        "photos-optimized/together/cinema-date/cinema-date-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/ending.webp",
+      "width": 4032,
+      "height": 3024,
+      "outputs": [
+        "photos-optimized/together/ending/ending-480w.avif",
+        "photos-optimized/together/ending/ending-480w.webp",
+        "photos-optimized/together/ending/ending-768w.avif",
+        "photos-optimized/together/ending/ending-768w.webp",
+        "photos-optimized/together/ending/ending-1080w.avif",
+        "photos-optimized/together/ending/ending-1080w.webp",
+        "photos-optimized/together/ending/ending-1440w.avif",
+        "photos-optimized/together/ending/ending-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/first-kiss.JPG",
+      "width": 2316,
+      "height": 3088,
+      "outputs": [
+        "photos-optimized/together/first-kiss/first-kiss-480w.avif",
+        "photos-optimized/together/first-kiss/first-kiss-480w.webp",
+        "photos-optimized/together/first-kiss/first-kiss-768w.avif",
+        "photos-optimized/together/first-kiss/first-kiss-768w.webp",
+        "photos-optimized/together/first-kiss/first-kiss-1080w.avif",
+        "photos-optimized/together/first-kiss/first-kiss-1080w.webp",
+        "photos-optimized/together/first-kiss/first-kiss-1440w.avif",
+        "photos-optimized/together/first-kiss/first-kiss-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/hero.webp",
+      "width": 4032,
+      "height": 3024,
+      "outputs": [
+        "photos-optimized/together/hero/hero-480w.avif",
+        "photos-optimized/together/hero/hero-480w.webp",
+        "photos-optimized/together/hero/hero-768w.avif",
+        "photos-optimized/together/hero/hero-768w.webp",
+        "photos-optimized/together/hero/hero-1080w.avif",
+        "photos-optimized/together/hero/hero-1080w.webp",
+        "photos-optimized/together/hero/hero-1440w.avif",
+        "photos-optimized/together/hero/hero-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/mirror-selfie.JPG",
+      "width": 2316,
+      "height": 3088,
+      "outputs": [
+        "photos-optimized/together/mirror-selfie/mirror-selfie-480w.avif",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-480w.webp",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-768w.avif",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-768w.webp",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-1080w.avif",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-1080w.webp",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-1440w.avif",
+        "photos-optimized/together/mirror-selfie/mirror-selfie-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/mountain-date.webp",
+      "width": 4032,
+      "height": 2268,
+      "outputs": [
+        "photos-optimized/together/mountain-date/mountain-date-480w.avif",
+        "photos-optimized/together/mountain-date/mountain-date-480w.webp",
+        "photos-optimized/together/mountain-date/mountain-date-768w.avif",
+        "photos-optimized/together/mountain-date/mountain-date-768w.webp",
+        "photos-optimized/together/mountain-date/mountain-date-1080w.avif",
+        "photos-optimized/together/mountain-date/mountain-date-1080w.webp",
+        "photos-optimized/together/mountain-date/mountain-date-1440w.avif",
+        "photos-optimized/together/mountain-date/mountain-date-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/night-mirror.JPG",
+      "width": 720,
+      "height": 1280,
+      "outputs": [
+        "photos-optimized/together/night-mirror/night-mirror-480w.avif",
+        "photos-optimized/together/night-mirror/night-mirror-480w.webp",
+        "photos-optimized/together/night-mirror/night-mirror-768w.avif",
+        "photos-optimized/together/night-mirror/night-mirror-768w.webp",
+        "photos-optimized/together/night-mirror/night-mirror-1080w.avif",
+        "photos-optimized/together/night-mirror/night-mirror-1080w.webp",
+        "photos-optimized/together/night-mirror/night-mirror-1440w.avif",
+        "photos-optimized/together/night-mirror/night-mirror-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/night-smiles.webp",
+      "width": 1600,
+      "height": 1200,
+      "outputs": [
+        "photos-optimized/together/night-smiles/night-smiles-480w.avif",
+        "photos-optimized/together/night-smiles/night-smiles-480w.webp",
+        "photos-optimized/together/night-smiles/night-smiles-768w.avif",
+        "photos-optimized/together/night-smiles/night-smiles-768w.webp",
+        "photos-optimized/together/night-smiles/night-smiles-1080w.avif",
+        "photos-optimized/together/night-smiles/night-smiles-1080w.webp",
+        "photos-optimized/together/night-smiles/night-smiles-1440w.avif",
+        "photos-optimized/together/night-smiles/night-smiles-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/our-favorite.webp",
+      "width": 4032,
+      "height": 3024,
+      "outputs": [
+        "photos-optimized/together/our-favorite/our-favorite-480w.avif",
+        "photos-optimized/together/our-favorite/our-favorite-480w.webp",
+        "photos-optimized/together/our-favorite/our-favorite-768w.avif",
+        "photos-optimized/together/our-favorite/our-favorite-768w.webp",
+        "photos-optimized/together/our-favorite/our-favorite-1080w.avif",
+        "photos-optimized/together/our-favorite/our-favorite-1080w.webp",
+        "photos-optimized/together/our-favorite/our-favorite-1440w.avif",
+        "photos-optimized/together/our-favorite/our-favorite-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/together-smile.JPG",
+      "width": 4160,
+      "height": 2340,
+      "outputs": [
+        "photos-optimized/together/together-smile/together-smile-480w.avif",
+        "photos-optimized/together/together-smile/together-smile-480w.webp",
+        "photos-optimized/together/together-smile/together-smile-768w.avif",
+        "photos-optimized/together/together-smile/together-smile-768w.webp",
+        "photos-optimized/together/together-smile/together-smile-1080w.avif",
+        "photos-optimized/together/together-smile/together-smile-1080w.webp",
+        "photos-optimized/together/together-smile/together-smile-1440w.avif",
+        "photos-optimized/together/together-smile/together-smile-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/warm-hug.JPG",
+      "width": 4160,
+      "height": 2340,
+      "outputs": [
+        "photos-optimized/together/warm-hug/warm-hug-480w.avif",
+        "photos-optimized/together/warm-hug/warm-hug-480w.webp",
+        "photos-optimized/together/warm-hug/warm-hug-768w.avif",
+        "photos-optimized/together/warm-hug/warm-hug-768w.webp",
+        "photos-optimized/together/warm-hug/warm-hug-1080w.avif",
+        "photos-optimized/together/warm-hug/warm-hug-1080w.webp",
+        "photos-optimized/together/warm-hug/warm-hug-1440w.avif",
+        "photos-optimized/together/warm-hug/warm-hug-1440w.webp"
+      ]
+    }
+  ],
+  "video": {
+    "source": "photos/video/lip-sync.MP4",
+    "used_in_main_flow": false,
+    "note": "Видео оставлено вне основного сайта, чтобы не ломать тихий тон."
+  }
+}
