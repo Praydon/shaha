@@ -2,3 +2,5 @@
 node_modules/
 dist/
 /*.jpg
+/*.MP4
+/*.mp4

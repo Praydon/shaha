@@ -11,10 +11,19 @@ const photoSizes = {
   "childhood/little-princess": "(min-width: 760px) 340px, 76vw",
   "childhood/little-shaha": "(min-width: 760px) 360px, 76vw",
   "childhood/little-video-call": "(min-width: 760px) 320px, 74vw",
+  "childhood/ya": "(min-width: 760px) 330px, 76vw",
+  "childhood/ne": "(min-width: 760px) 330px, 76vw",
+  "childhood/znal": "(min-width: 760px) 330px, 76vw",
+  "childhood/tebya": "(min-width: 760px) 330px, 76vw",
+  "childhood/togda": "(min-width: 760px) 330px, 76vw",
+  "together/now-we-have": "(min-width: 760px) 720px, 92vw",
+  "together/our-places": "(min-width: 760px) 460px, 88vw",
+  "together/our-words": "(min-width: 760px) 460px, 88vw",
   "together/mountain-date": "(min-width: 760px) 720px, 92vw",
   "together/night-smiles": "(min-width: 760px) 460px, 88vw",
   "together/hero": "(min-width: 760px) 460px, 88vw",
   "shaha/golden-light": "(min-width: 760px) 360px, 82vw",
+  "shaha/last-photo": "(min-width: 760px) 360px, 82vw",
 };
 
 const archiveGroups = [

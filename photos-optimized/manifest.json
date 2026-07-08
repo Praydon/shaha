@@ -58,6 +58,81 @@
       ]
     },
     {
+      "source": "photos/childhood/ne.jpg",
+      "width": 828,
+      "height": 1472,
+      "outputs": [
+        "photos-optimized/childhood/ne/ne-480w.avif",
+        "photos-optimized/childhood/ne/ne-480w.webp",
+        "photos-optimized/childhood/ne/ne-768w.avif",
+        "photos-optimized/childhood/ne/ne-768w.webp",
+        "photos-optimized/childhood/ne/ne-1080w.avif",
+        "photos-optimized/childhood/ne/ne-1080w.webp",
+        "photos-optimized/childhood/ne/ne-1440w.avif",
+        "photos-optimized/childhood/ne/ne-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/tebya.jpg",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/childhood/tebya/tebya-480w.avif",
+        "photos-optimized/childhood/tebya/tebya-480w.webp",
+        "photos-optimized/childhood/tebya/tebya-768w.avif",
+        "photos-optimized/childhood/tebya/tebya-768w.webp",
+        "photos-optimized/childhood/tebya/tebya-1080w.avif",
+        "photos-optimized/childhood/tebya/tebya-1080w.webp",
+        "photos-optimized/childhood/tebya/tebya-1440w.avif",
+        "photos-optimized/childhood/tebya/tebya-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/togda.jpg",
+      "width": 828,
+      "height": 1472,
+      "outputs": [
+        "photos-optimized/childhood/togda/togda-480w.avif",
+        "photos-optimized/childhood/togda/togda-480w.webp",
+        "photos-optimized/childhood/togda/togda-768w.avif",
+        "photos-optimized/childhood/togda/togda-768w.webp",
+        "photos-optimized/childhood/togda/togda-1080w.avif",
+        "photos-optimized/childhood/togda/togda-1080w.webp",
+        "photos-optimized/childhood/togda/togda-1440w.avif",
+        "photos-optimized/childhood/togda/togda-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/ya.jpg",
+      "width": 1200,
+      "height": 1600,
+      "outputs": [
+        "photos-optimized/childhood/ya/ya-480w.avif",
+        "photos-optimized/childhood/ya/ya-480w.webp",
+        "photos-optimized/childhood/ya/ya-768w.avif",
+        "photos-optimized/childhood/ya/ya-768w.webp",
+        "photos-optimized/childhood/ya/ya-1080w.avif",
+        "photos-optimized/childhood/ya/ya-1080w.webp",
+        "photos-optimized/childhood/ya/ya-1440w.avif",
+        "photos-optimized/childhood/ya/ya-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/childhood/znal.jpg",
+      "width": 1600,
+      "height": 1200,
+      "outputs": [
+        "photos-optimized/childhood/znal/znal-480w.avif",
+        "photos-optimized/childhood/znal/znal-480w.webp",
+        "photos-optimized/childhood/znal/znal-768w.avif",
+        "photos-optimized/childhood/znal/znal-768w.webp",
+        "photos-optimized/childhood/znal/znal-1080w.avif",
+        "photos-optimized/childhood/znal/znal-1080w.webp",
+        "photos-optimized/childhood/znal/znal-1440w.avif",
+        "photos-optimized/childhood/znal/znal-1440w.webp"
+      ]
+    },
+    {
       "source": "photos/other/autumn-cat-blanket.png",
       "width": 834,
       "height": 941,
@@ -388,6 +463,21 @@
       ]
     },
     {
+      "source": "photos/shaha/last-photo.jpg",
+      "width": 1280,
+      "height": 853,
+      "outputs": [
+        "photos-optimized/shaha/last-photo/last-photo-480w.avif",
+        "photos-optimized/shaha/last-photo/last-photo-480w.webp",
+        "photos-optimized/shaha/last-photo/last-photo-768w.avif",
+        "photos-optimized/shaha/last-photo/last-photo-768w.webp",
+        "photos-optimized/shaha/last-photo/last-photo-1080w.avif",
+        "photos-optimized/shaha/last-photo/last-photo-1080w.webp",
+        "photos-optimized/shaha/last-photo/last-photo-1440w.avif",
+        "photos-optimized/shaha/last-photo/last-photo-1440w.webp"
+      ]
+    },
+    {
       "source": "photos/shaha/museum-day.JPG",
       "width": 1200,
       "height": 1600,
@@ -628,6 +718,21 @@
       ]
     },
     {
+      "source": "photos/together/now-we-have.jpg",
+      "width": 780,
+      "height": 1280,
+      "outputs": [
+        "photos-optimized/together/now-we-have/now-we-have-480w.avif",
+        "photos-optimized/together/now-we-have/now-we-have-480w.webp",
+        "photos-optimized/together/now-we-have/now-we-have-768w.avif",
+        "photos-optimized/together/now-we-have/now-we-have-768w.webp",
+        "photos-optimized/together/now-we-have/now-we-have-1080w.avif",
+        "photos-optimized/together/now-we-have/now-we-have-1080w.webp",
+        "photos-optimized/together/now-we-have/now-we-have-1440w.avif",
+        "photos-optimized/together/now-we-have/now-we-have-1440w.webp"
+      ]
+    },
+    {
       "source": "photos/together/our-favorite.webp",
       "width": 4032,
       "height": 3024,
@@ -640,6 +745,36 @@
         "photos-optimized/together/our-favorite/our-favorite-1080w.webp",
         "photos-optimized/together/our-favorite/our-favorite-1440w.avif",
         "photos-optimized/together/our-favorite/our-favorite-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/our-places.jpg",
+      "width": 2560,
+      "height": 1920,
+      "outputs": [
+        "photos-optimized/together/our-places/our-places-480w.avif",
+        "photos-optimized/together/our-places/our-places-480w.webp",
+        "photos-optimized/together/our-places/our-places-768w.avif",
+        "photos-optimized/together/our-places/our-places-768w.webp",
+        "photos-optimized/together/our-places/our-places-1080w.avif",
+        "photos-optimized/together/our-places/our-places-1080w.webp",
+        "photos-optimized/together/our-places/our-places-1440w.avif",
+        "photos-optimized/together/our-places/our-places-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/together/our-words.jpg",
+      "width": 1600,
+      "height": 1200,
+      "outputs": [
+        "photos-optimized/together/our-words/our-words-480w.avif",
+        "photos-optimized/together/our-words/our-words-480w.webp",
+        "photos-optimized/together/our-words/our-words-768w.avif",
+        "photos-optimized/together/our-words/our-words-768w.webp",
+        "photos-optimized/together/our-words/our-words-1080w.avif",
+        "photos-optimized/together/our-words/our-words-1080w.webp",
+        "photos-optimized/together/our-words/our-words-1440w.avif",
+        "photos-optimized/together/our-words/our-words-1440w.webp"
       ]
     },
     {
@@ -700,6 +835,21 @@
         "photos-optimized/together/your-birthday/your-birthday-1080w.webp",
         "photos-optimized/together/your-birthday/your-birthday-1440w.avif",
         "photos-optimized/together/your-birthday/your-birthday-1440w.webp"
+      ]
+    },
+    {
+      "source": "photos/video/video-preview.jpg",
+      "width": 1600,
+      "height": 1065,
+      "outputs": [
+        "photos-optimized/video/video-preview/video-preview-480w.avif",
+        "photos-optimized/video/video-preview/video-preview-480w.webp",
+        "photos-optimized/video/video-preview/video-preview-768w.avif",
+        "photos-optimized/video/video-preview/video-preview-768w.webp",
+        "photos-optimized/video/video-preview/video-preview-1080w.avif",
+        "photos-optimized/video/video-preview/video-preview-1080w.webp",
+        "photos-optimized/video/video-preview/video-preview-1440w.avif",
+        "photos-optimized/video/video-preview/video-preview-1440w.webp"
       ]
     }
   ],

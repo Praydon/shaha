@@ -650,6 +650,12 @@ p {
   line-height: 1.05;
 }
 
+.secret-answer p span {
+  display: inline-block;
+  padding-left: 0.9em;
+  transform: translateY(0.18em);
+}
+
 .secret-answer span {
   color: var(--muted);
   font-size: clamp(1rem, 4vw, 1.2rem);
@@ -667,14 +673,15 @@ p {
 }
 
 .childhood-stack {
-  position: relative;
   display: grid;
-  min-height: 650px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
 }
 
 .childhood-card {
   --tilt: -1.7deg;
-  width: min(74vw, 340px);
+  width: 100%;
   align-self: start;
 }
 
@@ -682,26 +689,26 @@ p {
   aspect-ratio: 3 / 4;
 }
 
-.childhood-card.secondary {
-  --tilt: 1.4deg;
-  width: min(72vw, 360px);
-  margin-top: 240px;
-  justify-self: end;
+.childhood-card:first-child {
+  width: min(84vw, 420px);
+  grid-column: 1 / -1;
+  justify-self: center;
 }
 
-.childhood-card.secondary img {
-  aspect-ratio: 16 / 10;
+.childhood-card.secondary {
+  --tilt: 1.4deg;
 }
 
 .childhood-card.tertiary {
   --tilt: -0.8deg;
-  width: min(62vw, 300px);
-  margin-top: 470px;
-  margin-left: 10px;
 }
 
-.childhood-card.tertiary img {
-  aspect-ratio: 4 / 3;
+.childhood-card.quaternary {
+  --tilt: 1.1deg;
+}
+
+.childhood-card.quinary {
+  --tilt: -1.2deg;
 }
 
 .scene-now {
@@ -841,9 +848,11 @@ body.motion-ready .scene-all-photos .scene-inner.reveal {
 }
 
 .archive-photo figcaption {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  min-height: 3.1em;
+  overflow: visible;
+  overflow-wrap: break-word;
+  text-overflow: clip;
+  white-space: normal;
 }
 
 .scene-final {
@@ -1033,8 +1042,37 @@ body.motion-ready .easter-panel.reveal-answer {
   }
 
   .scene-childhood .scene-inner {
-    grid-template-columns: minmax(0, 0.8fr) minmax(420px, 0.9fr);
+    grid-template-columns: minmax(0, 0.72fr) minmax(460px, 1fr);
     align-items: center;
+  }
+
+  .childhood-stack {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .childhood-card:first-child {
+    width: 100%;
+    grid-column: 1 / span 3;
+  }
+
+  .childhood-card.secondary {
+    grid-column: 4 / span 3;
+    margin-top: 56px;
+  }
+
+  .childhood-card.tertiary {
+    grid-column: 1 / span 2;
+  }
+
+  .childhood-card.quaternary {
+    grid-column: 3 / span 2;
+    margin-top: 44px;
+  }
+
+  .childhood-card.quinary {
+    grid-column: 5 / span 2;
+    margin-top: 12px;
   }
 
   .quiet-sequence {
@@ -1096,15 +1134,14 @@ body.motion-ready .easter-panel.reveal-answer {
   }
 
   .childhood-stack {
-    min-height: 610px;
+    gap: 12px;
   }
 
-  .childhood-card.secondary {
-    margin-top: 220px;
-  }
-
-  .childhood-card.tertiary {
-    margin-top: 440px;
+  .childhood-card.secondary,
+  .childhood-card.tertiary,
+  .childhood-card.quaternary,
+  .childhood-card.quinary {
+    margin-top: 0;
   }
 
   .archive-strip {
